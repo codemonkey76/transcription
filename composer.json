@@ -1,7 +1,7 @@
 {
-    "name": "codemonkey76/Transcription",
+    "name": "codemonkey76/transcription",
     "description": "Transcription of audio files using AWS Transcribe",
-    "keywords": ["codemonke76", "laravel", "transcribe", "transcription", "aws"],
+    "keywords": ["codemonkey76", "laravel", "transcribe", "transcription", "aws"],
     "homepage": "https://github.com/codemonkey76/transcription",
     "license": "MIT",
     "type": "library",
@@ -14,6 +14,7 @@
     ],
     "require": {
         "php": "^7.4",
+        "aws/aws-sdk-php": "^3.163",
         "laravel/framework": "^6.0|^7.0|^8.0"
     },
     "require-dev": {

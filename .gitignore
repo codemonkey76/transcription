@@ -1,0 +1,12 @@
+/vendor
+.env
+/public/.htaccess
+/storage
+storage/*.key
+*.log
+*.sql
+Thumbs.db
+.DS_Store
+._*
+._ide_helper.php
+/.idea
