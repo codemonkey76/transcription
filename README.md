@@ -26,6 +26,11 @@ Simply require the package and Laravel will Auto-Discover the Service Provider.
 composer require codemonkey76/transcription
 ```
 
+Publish the config file
+```
+php artisan vendor:publish --provider="Codemonkey76\Transcription\TranscriptionServiceProvider"
+```
+
 ## Usage:
 
 ```php
